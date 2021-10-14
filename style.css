@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(77, 77, 77);
+    size: 200px;
+}
+h1{
+    padding:50px;
+    color: white;
+    background-image: linear-gradient(rgba(211, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 50px;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+button{
+    background-image:url("../test1/img/1d24c48a29_50166503_stockage-energie-brique.jpg");
+    padding:20px;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    width:100%; 
+    height:100%;
+    border-radius: 30px;
+    
+}
+footer{
+    color: black;
+}
+div{
+    text-align: center;
+    border-radius: 50px;
+}
+img{
+    border-radius: 25px;
+}
+
+form{
+    align-items: flex-end;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
