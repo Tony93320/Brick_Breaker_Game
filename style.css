@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(0, 0, 0);
     size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Brick_Breaker_Game/img/1d24c48a29_50166503_stockage-energie-brique.jpg");
 }
 h1{
     padding:50px;
     color: white;
-    background-image: linear-gradient(rgba(211, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(211, 7, 7, 0.5), rgba(0, 0, 0, 0.5));
     border-radius: 50px;
     font-size: 50px;
     margin-top: 10px;
@@ -13,16 +15,17 @@ h1{
 }
 h3{
     font-size: 40px;
-    color: black;
+    color: white;
     text-align: center;
 }
 h4{
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
 }
 button{
-    background-image:url("../test1/img/1d24c48a29_50166503_stockage-energie-brique.jpg");
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(211, 7, 7, 0.5));
     padding:20px;
     font-size: 25px;
     color: white;
@@ -33,7 +36,7 @@ button{
     
 }
 footer{
-    color: black;
+    color: white;
 }
 div{
     text-align: center;
@@ -44,9 +47,11 @@ img{
 }
 
 form{
+    color: white;
     align-items: flex-end;
 }
 p{
+    color: white;
     text-align: center;
     font-size: 25px;
 }
